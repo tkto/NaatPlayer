@@ -97,12 +97,10 @@
 		A66E30701D0D0B90007A64F6 /* NaatPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				A66E30711D0D0B90007A64F6 /* AppDelegate.swift */,
-				A66E30731D0D0B90007A64F6 /* ViewController.swift */,
-				A66E30751D0D0B90007A64F6 /* Main.storyboard */,
-				A66E30781D0D0B90007A64F6 /* Assets.xcassets */,
-				A66E307A1D0D0B90007A64F6 /* LaunchScreen.storyboard */,
-				A66E307D1D0D0B90007A64F6 /* Info.plist */,
+				A66E30DC1D0D2289007A64F6 /* Supporting Files */,
+				A66E30DB1D0D227A007A64F6 /* Controller */,
+				A66E30DA1D0D226C007A64F6 /* View */,
+				A66E30D91D0D2261007A64F6 /* Model */,
 			);
 			path = NaatPlayer;
 			sourceTree = "<group>";
@@ -123,6 +121,40 @@
 				A66E30931D0D0B90007A64F6 /* Info.plist */,
 			);
 			path = NaatPlayerUITests;
+			sourceTree = "<group>";
+		};
+		A66E30D91D0D2261007A64F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A66E30DA1D0D226C007A64F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A66E307A1D0D0B90007A64F6 /* LaunchScreen.storyboard */,
+				A66E30751D0D0B90007A64F6 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A66E30DB1D0D227A007A64F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A66E30731D0D0B90007A64F6 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A66E30DC1D0D2289007A64F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A66E30781D0D0B90007A64F6 /* Assets.xcassets */,
+				A66E307D1D0D0B90007A64F6 /* Info.plist */,
+				A66E30711D0D0B90007A64F6 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -483,6 +515,7 @@
 				A66E30981D0D0B90007A64F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A66E30991D0D0B90007A64F6 /* Build configuration list for PBXNativeTarget "NaatPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +524,7 @@
 				A66E309B1D0D0B90007A64F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A66E309C1D0D0B90007A64F6 /* Build configuration list for PBXNativeTarget "NaatPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +533,7 @@
 				A66E309E1D0D0B90007A64F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
